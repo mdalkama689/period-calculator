@@ -64,7 +64,7 @@ export default function Mobile() {
   return (
     <div className="min-h-screen bg-black text-white py-6 px-4 flex flex-col-reverse md:flex-row items-center justify-center gap-6">
       {(nextPeriod || ovulationDay || fertileWindow) && (
-        <div className="bg-zinc-900 text-white p-4 rounded-lg border border-zinc-700 w-full md:max-w-sm text-center space-y-2">
+        <div className="w-full max-w-md md:max-w-lg bg-zinc-900 text-white p-4 rounded-lg border border-zinc-700  text-center space-y-2">
           <p className="text-xl font-semibold text-pink-400">
             Your Cycle Prediction
           </p>
