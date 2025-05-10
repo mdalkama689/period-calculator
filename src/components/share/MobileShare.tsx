@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaPlusCircle } from "react-icons/fa";
-import { MdOutlineInfo } from "react-icons/md";
+import { IoInformationCircle } from "react-icons/io5";
 import Link from "next/link";
 
 const MobileShare = () => {
@@ -47,7 +47,7 @@ const MobileShare = () => {
           </Link>
         </div>
 
-        <MdOutlineInfo
+        <IoInformationCircle
           size={48}
           onClick={handleClick}
           className="cursor-pointer absolute right-0 transition-transform duration-300 transform hover:scale-110 text-white"
